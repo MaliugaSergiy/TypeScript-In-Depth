@@ -219,12 +219,12 @@ import type { Library } from './classes';
 // console.log(identity<string>(false));
 
 // Task 07.01 Generic Functions
-const inventory: Book[] = [
-    { id: 10, title: 'The C Programming Language', author: 'K & R', available: true, category: Category.Software },
-    { id: 11, title: 'Code Complete', author: 'Steve McConnell', available: true, category: Category.Software },
-    { id: 12, title: '8-Bit Graphics with Cobol', author: 'A. B.', available: true, category: Category.Software },
-    { id: 13, title: 'Cool autoexec.bat Scripts!', author: 'C. D.', available: true, category: Category.Software },
-];
+// const inventory: Book[] = [
+//     { id: 10, title: 'The C Programming Language', author: 'K & R', available: true, category: Category.Software },
+//     { id: 11, title: 'Code Complete', author: 'Steve McConnell', available: true, category: Category.Software },
+//     { id: 12, title: '8-Bit Graphics with Cobol', author: 'A. B.', available: true, category: Category.Software },
+//     { id: 13, title: 'Cool autoexec.bat Scripts!', author: 'C. D.', available: true, category: Category.Software },
+// ];
 
 // console.log(purge<Book>(inventory));
 
